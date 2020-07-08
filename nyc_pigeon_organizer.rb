@@ -1,8 +1,8 @@
 def nyc_pigeon_organizer(data)
   # write your code here!
   data.map do |(key, value), array|
-    value.map do |inner_key, names|
-      names.map do |name|
+    value.each do |inner_key, names|
+      names.each do |name|
         if !array[name]
           array[name] = {}
         end
