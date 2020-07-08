@@ -10,8 +10,7 @@ def nyc_pigeon_organizer(data)
         !array[name][key] = []
         }
         array[name][key].push(inner_key.to_s)
-      }
-    }
+      end
       
     }
     
